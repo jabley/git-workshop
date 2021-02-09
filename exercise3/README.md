@@ -35,7 +35,7 @@ In this exercise, we use a real `build.gradle` file so that we can create a some
 
     You can also use the following command to make the change:
     ```
-    sed -i "s/^version = .*$/version = '1.6.0-SNAPSHOT'/" build.gradle
+    sed -i '' -E -e "s/^version = .*$/version = '1.6.0-SNAPSHOT'/" build.gradle
     ```
 4. Check your changes, then stage and commit them.
     ```
@@ -65,7 +65,7 @@ In this exercise, we use a real `build.gradle` file so that we can create a some
 
     You can also use the following command to make the change:
     ```
-    sed -i "s/^version = .*$/version = '1.5.8-SNAPSHOT'/" build.gradle
+    sed -i '' -E -e "s/^version = .*$/version = '1.5.8-SNAPSHOT'/" build.gradle
     ```
 8. Check your changes, then stage and commit them.
     ```
